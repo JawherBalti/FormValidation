@@ -1,0 +1,66 @@
+.form-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 0.7rem;
+}
+
+.form-control {
+    width: 20rem;
+    height: 2rem;
+}
+
+.form-control:focus {
+    outline: none;
+    border: 1px solid #007bff83;
+}
+
+.form-control:valid:not(:placeholder-shown) {
+    border: 1px solid #007bff83;
+}
+
+.form-control:invalid:not(:placeholder-shown) {
+    border: 1px solid #ff001985;
+}
+
+.valider {
+    width: 20.5rem;
+    background-color: #007bff;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.valider:hover {
+    background-color: #0068d6;
+}
+
+.annuler {
+    width: 20.5rem;
+    background-color: #ff0019;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.annuler:hover {
+    background-color: #e2192d;
+}
+
+.success {
+    color: #007bff;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.error {
+    color: #e2192d;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
